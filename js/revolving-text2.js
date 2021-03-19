@@ -2,7 +2,10 @@ const tasks = [
   'Graphic Designer',
   'Data Scientist',
   'Illustrator',
-  'Music Producer'
+  'Software Engineer',
+  'Music Producer',
+  'Web Developer',
+  'Mixing Engineer'
 ];
 
 function getRandomColor() {
