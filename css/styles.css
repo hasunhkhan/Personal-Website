@@ -235,6 +235,10 @@ input.input100 {
   height: 40px;
 }
 
+textarea {
+  outline: none;
+  border: none;
+}
 
 textarea.input100 {
   min-height: 110px;
