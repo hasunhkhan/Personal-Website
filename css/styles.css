@@ -135,7 +135,7 @@ background {
 .work {
 	/* display: grid; */
 	/*  align-self: center; */
-	width:75%;
+	/*width:75%; */
 	margin-left: auto;
 	margin-right:auto;
 }
@@ -760,7 +760,6 @@ to {
 }
 */
 
-
 .column1 {
 	width: 50%;
 	max-width: 50%;
@@ -897,18 +896,18 @@ clear: both;
 	position: relative;
 	top: 0;
 	transition: all 300ms ease-in-out;
-	}
+}
 
 .fa-instagram:hover {
 	background: #125688;
 	color: white;
 	top: 0.2em;
 	box-shadow: 0 0.2em #11466b, 0 0.3em rgba(0, 0, 0, 0.2);
-	}
+}
 .fa-instagram:active {
 	top: 0.4em;
 	box-shadow: 0 0.1em #11466b, 0 0.1em rgba(0, 0, 0, 0.2);
-	}
+}
 
 .fa-dribbble {
   color: #ea4c89;
@@ -927,18 +926,18 @@ clear: both;
 	position: relative;
 	top: 0;
 	transition: all 300ms ease-in-out;
-	}
+}
 
 .fa-dribbble:hover {
 	background: #ea4c89;
 	color: white;
 	top: 0.2em;
 	box-shadow: 0 0.2em #bf366a, 0 0.3em rgba(0, 0, 0, 0.2);
-	}
+}
 .fa-dribbble:active {
 	top: 0.4em;
 	box-shadow: 0 0.1em #bf366a, 0 0.1em rgba(0, 0, 0, 0.2);
-	}
+}
 
 .fa-linkedin {
   color: #007bb5;
@@ -1069,6 +1068,7 @@ clear: both;
 	  .slider > a {
 	    display: none;
 	  }
+	}
 
 .rowTest{
 		-webkit-column-count: 2;
@@ -1093,4 +1093,36 @@ clear: both;
   min-height: 200px;
   border: 2px #ccc solid;
   color: #fff;
+}
+
+.graphic-design {
+
+}
+
+.workRow {
+	display:flex;
+}
+
+.workColumn1 {
+	flex:35%;
+}
+
+.workColumn2 {
+	flex: 75%;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.fixed {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	position: fixed;
+	padding-left:10%;
+	width: 15%
+}
+.scrollit {
+	align-self:center;
+	width: 71%
 }
