@@ -431,7 +431,6 @@ textarea.input100 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20
 }
 
 .logo {
@@ -1104,23 +1103,23 @@ clear: both;
 }
 
 .workColumn1 {
-	flex:35%;
+	flex:33%;
 }
 
 .workColumn2 {
-	flex: 75%;
+	flex: 66%;
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 .fixed {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:auto;
-	position: fixed;
-	padding-left:10%;
-	width: 15%
+	position: -webkit-sticky;
+  position: sticky;
+	top: 100;
+	width:50%
 }
 .scrollit {
 	align-self:center;
