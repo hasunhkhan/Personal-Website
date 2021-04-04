@@ -20,9 +20,9 @@ h2 {
 }
 
 h3 {
-	font-size: 34px;
-	padding-left: 10px;
-	text-align: center;
+	font-size: 24px;
+	padding-left: 0px;
+	text-align: left;
 }
 
 header {
@@ -79,7 +79,22 @@ background {
 .description{
 	font-family: "helvetica Neue", sans-serif;
 	font-weight: normal;
-	font-size: 21px;
+	/*font-size: 21px;*/
+}
+
+.signature{
+	font-family: "helvetica Neue", sans-serif;
+	font-weight:lighter;
+	font-size: 18px;
+
+}
+.letterBody{
+	font-family: "helvetica Neue", sans-serif;
+	font-weight: normal;
+	/*font-size: 21px;*/
+	font-size: 1rem;
+	line-height: 1.5em;
+
 }
 
 .animation {
@@ -124,9 +139,10 @@ background {
 
 .cards {
 	background-color: #ffffff;
-	display: block;
 	align-items: center;
-	padding: 20px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 	margin-left: auto;
 	width:75%;
 	margin-right: auto;
@@ -395,7 +411,7 @@ textarea.input100 {
 .form {
 	display: block;
 	margin-top: 0em;
-	margin-block0end: 1em;
+	margin-block-end: 1em;
 }
 
 .aboutTitle{
