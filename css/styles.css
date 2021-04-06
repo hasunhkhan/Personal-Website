@@ -30,14 +30,13 @@ html, body {
 }
 
 body {
-	font-family: "helvetica Neue", sans-serif;
-	font-weight: bold;
+	font-family: "cirkalight";
 }
 
 h2 {
 	font-size: 34px;
 	font-family: 'argesta_hairlineregular';
-	display:block;
+	margin-bottom:0.5rem;
 }
 
 h3 {
@@ -104,8 +103,7 @@ background {
 }
 
 .signature{
-	font-family: "helvetica Neue", sans-serif;
-	font-weight:lighter;
+	font-family: "argesta_headlineRgIt";
 	font-size: 18px;
 
 }
@@ -115,7 +113,7 @@ background {
 	/*font-size: 21px;*/
 	font-size: 1rem;
 	line-height: 1.5em;
-
+	margin-top:0px;
 }
 
 .animation {
@@ -617,6 +615,7 @@ nav ul li a.active-page {
 .gradientText {
 	color: #f35626;
 background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+font-family: "argesta_headlineRgIt";
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 -webkit-animation: hue 10s infinite linear;
