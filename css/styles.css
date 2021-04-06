@@ -32,6 +32,11 @@ html, body {
 body {
 	font-family: "cirkalight";
 }
+h1 {
+	font-size: 3rem;
+	line-height: 4.5rem;
+	font-family: hattonultrabold;
+}
 
 h2 {
 	font-size: 34px;
@@ -163,7 +168,7 @@ background {
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-left: auto;
-	width:75%;
+	width:50%;
 	margin-right: auto;
 }
 
