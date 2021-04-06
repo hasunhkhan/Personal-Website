@@ -283,8 +283,6 @@
 
 }
 
-
-
 @font-face {
     font-family: 'chaneyregular';
     src: url('chaney-regular-webfont.eot');
@@ -304,6 +302,17 @@
          url('chaney-wide-webfont.woff2') format('woff2'),
          url('chaney-wide-webfont.woff') format('woff'),
          url('chaney-wide-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'silka_monoregular';
+    src: url('silkamono-regular-webfont.eot');
+    src: url('silkamono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('silkamono-regular-webfont.woff2') format('woff2'),
+         url('silkamono-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 

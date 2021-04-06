@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: 'argesta_hairlineregular';
 	margin-bottom:1rem;
 }
@@ -108,23 +108,24 @@ background {
 	/*font-size: 21px;*/
 }
 
+.letterBody{
+	font-family: "silka_monoregular";
+	font-weight: normal;
+	/*font-size: 21px;*/
+	font-size: 0.75rem;
+	line-height: 1.5em;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
 .salutations{
+	font-family: "silka_monoregular";
 	margin-top:1em;
 }
 
 .signature{
-	font-family: "argesta_headlineRgIt";
+	font-family: "silkamono";
 	font-size: 18px;
-
-}
-.letterBody{
-	font-family: "helvetica";
-	font-weight: normal;
-	/*font-size: 21px;*/
-	font-size: 1rem;
-	line-height: 1.5em;
-	margin-top:0px;
-	margin-bottom:0px;
 }
 
 .animation {
@@ -628,7 +629,7 @@ nav ul li a.active-page {
 .gradientText {
 	color: #f35626;
 background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-font-family: "argesta_headlineRgIt";
+font-family: "silka_monoregular";
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 -webkit-animation: hue 10s infinite linear;
@@ -1153,13 +1154,13 @@ clear: both;
 .workColumn1 {
 	flex:33%;
 	margin-left:10em;
-	margin-right:3.333333em;
+	margin-right:11%;
 }
 
 .workColumn2 {
 	flex: 66%;
 	flex-direction: column;
-	margin-left:3.333333em;
+	/*margin-left:3.333333em;*/
 	margin-right:10em;
 }
 
