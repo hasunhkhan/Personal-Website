@@ -1153,13 +1153,13 @@ clear: both;
 .workColumn1 {
 	flex:33%;
 	margin-left:10em;
-	margin-right:1em;
+	margin-right:3.333333em;
 }
 
 .workColumn2 {
 	flex: 66%;
 	flex-direction: column;
-	margin-left:1em;
+	margin-left:3.333333em;
 	margin-right:10em;
 }
 
