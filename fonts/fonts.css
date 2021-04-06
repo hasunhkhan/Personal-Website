@@ -268,3 +268,43 @@
     font-style: normal;
 
 }
+
+
+
+@font-face {
+    font-family: 'chaneyextended';
+    src: url('chaney-extended-webfont.eot');
+    src: url('chaney-extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chaney-extended-webfont.woff2') format('woff2'),
+         url('chaney-extended-webfont.woff') format('woff'),
+         url('chaney-extended-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'chaneyregular';
+    src: url('chaney-regular-webfont.eot');
+    src: url('chaney-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chaney-regular-webfont.woff2') format('woff2'),
+         url('chaney-regular-webfont.woff') format('woff'),
+         url('chaney-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chaneywide';
+    src: url('chaney-wide-webfont.eot');
+    src: url('chaney-wide-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chaney-wide-webfont.woff2') format('woff2'),
+         url('chaney-wide-webfont.woff') format('woff'),
+         url('chaney-wide-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

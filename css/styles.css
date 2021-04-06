@@ -34,14 +34,14 @@ body {
 }
 h1 {
 	font-size: 3rem;
-	line-height: 4.5rem;
+	line-height: 3.5rem;
 	font-family: hattonultrabold;
 }
 
 h2 {
-	font-size: 34px;
+	font-size: 3rem;
 	font-family: 'argesta_hairlineregular';
-	margin-bottom:0.5rem;
+	margin-bottom:1rem;
 }
 
 h3 {
@@ -102,9 +102,14 @@ background {
 }
 
 .description{
-	font-family: "argesta_hairlineregular", sans-serif;
-	font-weight: normal;
+	font-family: "helvetica";
+	font-weight: lighter;
+	font-size: 0.7rem;
 	/*font-size: 21px;*/
+}
+
+.salutations{
+	margin-top:1em;
 }
 
 .signature{
@@ -113,12 +118,13 @@ background {
 
 }
 .letterBody{
-	font-family: "cirkalight";
+	font-family: "helvetica";
 	font-weight: normal;
 	/*font-size: 21px;*/
 	font-size: 1rem;
 	line-height: 1.5em;
 	margin-top:0px;
+	margin-bottom:0px;
 }
 
 .animation {
@@ -663,10 +669,9 @@ to {
 }
 
 .word-name {
-	font-family: hattonultrabold;
+	font-family: hattonbold;
   font-size: 90px;
   font-style: normal;
-  font-weight: 700;
   margin-bottom: auto;
   margin-top: 215px;
   position: absolute;
