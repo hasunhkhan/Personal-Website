@@ -1,4 +1,24 @@
-
+/* fonts:
+cirkabold
+cirkalight
+cirkaregular
+hattonbold
+hattonlight
+hattonmedium
+hattonultrabold
+hattonultralight
+hattonregular
+neue_worldsuperCnLt
+argesta_textregular_italic
+argesta_textbold
+argesta_textregular
+argesta_displayregular_italic
+argesta_displayregular
+argesta_headlineRgIt
+argesta_headlineregular
+argesta_hairlineregular
+argesta_hairlineRgIt
+*/
 
 html, body {
 	margin: 0;
@@ -16,6 +36,7 @@ body {
 
 h2 {
 	font-size: 34px;
+	font-family: 'argesta_hairlineregular';
 	display:block;
 }
 
@@ -46,7 +67,7 @@ background {
     -webkit-transform: rotate(-7deg);
     -ms-transform: rotate(-7deg);
     transform: rotate(-7deg);
-    font-family: 'neue_worldsuperCnLt';
+    font-family: 'hattonultrabold';
     font-size: 12vw;
     line-height: .75em;
     font-style: italic;
@@ -77,7 +98,7 @@ background {
 }
 
 .description{
-	font-family: "helvetica Neue", sans-serif;
+	font-family: "argesta_hairlineregular", sans-serif;
 	font-weight: normal;
 	/*font-size: 21px;*/
 }
@@ -89,7 +110,7 @@ background {
 
 }
 .letterBody{
-	font-family: "helvetica Neue", sans-serif;
+	font-family: "cirkalight";
 	font-weight: normal;
 	/*font-size: 21px;*/
 	font-size: 1rem;
@@ -636,7 +657,7 @@ to {
 }
 
 .word-name {
-	font-family: 'Open Sans', sans-serif;
+	font-family: hattonultrabold;
   font-size: 90px;
   font-style: normal;
   font-weight: 700;
