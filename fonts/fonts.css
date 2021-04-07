@@ -317,3 +317,26 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'basier_squareregular';
+    src: url('basiersquare-regular-webfont.eot');
+    src: url('basiersquare-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('basiersquare-regular-webfont.woff2') format('woff2'),
+         url('basiersquare-regular-webfont.woff') format('woff'),
+         url('basiersquare-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'basier_circleregular';
+    src: url('basiercircle-regular-webfont.eot');
+    src: url('basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('basiercircle-regular-webfont.woff2') format('woff2'),
+         url('basiercircle-regular-webfont.woff') format('woff'),
+         url('basiercircle-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

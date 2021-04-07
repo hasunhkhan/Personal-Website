@@ -62,6 +62,18 @@ background {
 			height: 300px;
 }
 
+
+.home {
+	margin-left: 10rem;
+	margin-right: 10rem;
+	margin-top: 10rem;
+	border-color: grey;
+	border-style: double;
+	box-shadow: 0px 3px 15px -9px #000000;
+	border-radius: 2px;
+
+}
+
 .tagline {
     margin-right: auto;
 		margin-left: auto;
@@ -158,7 +170,7 @@ background {
 	display:flex;
 	justify-content: center;
 	height: auto;
-	width:80%;
+	width:50%;
 }
 
 @media(max-width: 875px) {
@@ -643,39 +655,15 @@ to {
 	-webkit-filter: hue-rotate(-360deg);
 }
 }
-
-.rotatingText {
-	font-family: "helvetica Neue", sans-serif;
-	font-weight: normal;
-	font-variant: normal;
-	font-size: 18px;
-	text-align: center;
-	line-height: 18px;
-}
-.rotatingText-adjective {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-  left: 0;
-  margin-bottom: 50px;
-  margin-top: 175px;
-	opacity: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  text-transform: uppercase;
-  top: 0;
-	animation-delay: 9.5s;
-}
-
 .word-name {
 	font-family: hattonbold;
-  font-size: 90px;
+  font-size: 5rem;
   font-style: normal;
   margin-bottom: auto;
-  margin-top: 215px;
-  position: absolute;
+  margin-top: 22.5rem;
+	margin-left: 15rem;
+	margin-right: 15rem;
+  position: fixed;
 	color: black;
   text-align: center;
   text-transform: uppercase;
