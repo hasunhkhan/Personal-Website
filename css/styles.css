@@ -26,7 +26,6 @@ html, body {
 	width: 100%;
 	/*box-sizing: border-box;*/
 	-webkit-font-smoothing: antialiased;
-	background-color: #fffefc;
 }
 
 body {
@@ -42,6 +41,7 @@ h2 {
 	font-size: 2rem;
 	font-family: 'argesta_hairlineregular';
 	margin-bottom:1rem;
+	color: rgb(112, 124, 145);
 }
 
 h3 {
@@ -62,16 +62,27 @@ background {
 			height: 300px;
 }
 
+.spaceMode {
+	margin-left: 30rem;
+	margin-right: 30rem;
+	position:static;
+}
+
+.wrapper {
+	background-color: red;
+}
+
 
 .home {
-	margin-left: 10rem;
-	margin-right: 10rem;
+	background-image: "images/beige-paper.jpeg";
+	background-repeat: repeat-y;
+	background-size: 30px;
+	margin-left: 15rem;
+	margin-right: 15rem;
 	margin-top: 10rem;
-	border-color: grey;
-	border-style: double;
-	box-shadow: 0px 3px 15px -9px #000000;
-	border-radius: 2px;
-
+	margin-bottom: 10rem;
+	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.48);
+	/* Background Color */
 }
 
 .tagline {
@@ -104,39 +115,43 @@ background {
 }
 
 
-.subtitle{
-	font-family:"helvetica Neue", sans-serif;
-	font-style:normal;
-	font-size:16px;
+.footerText{
+	padding-top:5rem;
+	margin-bottom:1rem;
+	font-family:"basier_squareregular";
+	font-size:0.75rem;
 	align-items: center;
-	display: flex;
 	justify-content: center;
+	color: rgb(112, 124, 145);
 }
 
 .description{
-	font-family: "helvetica";
-	font-weight: lighter;
-	font-size: 0.7rem;
-	/*font-size: 21px;*/
+	font-family: "argesta_hairlineregular";
+	font-size: 0.75rem;
+	position:relative;
 }
 
 .letterBody{
-	font-family: "silka_monoregular";
+	font-family: "basier_squareregular";
 	font-weight: normal;
-	/*font-size: 21px;*/
 	font-size: 0.75rem;
 	line-height: 1.5em;
 	margin-top:0px;
-	margin-bottom:0px;
+	margin-bottom:1rem;
+	color: rgb(112, 124, 145);
 }
 
 .salutations{
-	font-family: "silka_monoregular";
-	margin-top:1em;
+	font-family: "basier_squareregular";
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 1.5em;
+	margin-top:0px;
 }
 
 .signature{
-	font-family: "silkamono";
+	margin-top:0px;
+	font-family: "basier_squareregular";
 	font-size: 18px;
 }
 
@@ -181,11 +196,12 @@ background {
 }
 
 .cards {
-	background-color: #ffffff;
+	background-image: url("images\beige-paper.png");
+	background-repeat: repeat-y;
 	align-items: center;
 	padding-top: 40px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 10rem;
+	padding-right: 10rem;
 	margin-left: auto;
 	width:50%;
 	margin-right: auto;
@@ -640,11 +656,10 @@ nav ul li a.active-page {
 
 .gradientText {
 	color: #f35626;
-background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-font-family: "silka_monoregular";
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
--webkit-animation: hue 10s infinite linear;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
 }
 
 @-webkit-keyframes hue {
@@ -656,14 +671,12 @@ to {
 }
 }
 .word-name {
-	font-family: hattonbold;
-  font-size: 5rem;
+	font-family: hattonultrabold;
+  font-size: 3rem;
   font-style: normal;
-  margin-bottom: auto;
-  margin-top: 22.5rem;
-	margin-left: 15rem;
-	margin-right: 15rem;
-  position: fixed;
+	line-height: 30rem;
+  position:absolute;
+	margin-top: 15rem;
 	color: black;
   text-align: center;
   text-transform: uppercase;
