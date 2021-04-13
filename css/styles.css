@@ -26,10 +26,16 @@ html, body {
 	width: 100%;
 	/*box-sizing: border-box;*/
 	-webkit-font-smoothing: antialiased;
+	background-image: url("images\arches.png");
+
 }
 
 body {
 	font-family: "cirkalight";
+}
+
+.footer{
+
 }
 h1 {
 	font-size: 3rem;
@@ -69,14 +75,15 @@ background {
 }
 
 .wrapper {
-	background-color: red;
+	background-image: url("../images/arches.png");
+	background-color: rgb(211, 231, 240);
+	padding-bottom:100px;
 }
 
 
 .home {
-	background-image: "images/beige-paper.jpeg";
-	background-repeat: repeat-y;
-	background-size: 30px;
+	background-image: url("../images/beige-paper.jpeg");
+	background-size: 200px;
 	margin-left: 15rem;
 	margin-right: 15rem;
 	margin-top: 10rem;
@@ -196,14 +203,11 @@ background {
 }
 
 .cards {
-	background-image: url("images\beige-paper.png");
-	background-repeat: repeat-y;
 	align-items: center;
 	padding-top: 40px;
-	padding-left: 10rem;
-	padding-right: 10rem;
+	padding-left: 25%;
+	padding-right: 25%;
 	margin-left: auto;
-	width:50%;
 	margin-right: auto;
 }
 
