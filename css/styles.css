@@ -26,7 +26,6 @@ html, body {
 	width: 100%;
 	/*box-sizing: border-box;*/
 	-webkit-font-smoothing: antialiased;
-	background-image: url("images\arches.png");
 
 }
 
@@ -75,8 +74,8 @@ background {
 }
 
 .wrapper {
-	background-image: url("../images/arches.png");
-	background-color: rgb(211, 231, 240);
+	background-image: url("../images/binding-light.png");
+	background-color: rgb(232, 242, 250);
 	padding-bottom:100px;
 }
 
@@ -550,7 +549,7 @@ nav ul {
 }
 
 nav.black ul {
-      background: white;
+	background: transparent;
 }
 
 nav ul li {
@@ -606,7 +605,7 @@ nav ul li a.active-page {
       }
 
       nav.black ul {
-            background: white;
+            background: transparent;
       }
 
       .showing {
