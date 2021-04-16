@@ -30,6 +30,8 @@ html, body {
 }
 
 body {
+	background-image: url("../images/billie-holiday.png");
+	background-color: rgb(131, 180, 252);
 	font-family: "cirkalight";
 }
 
@@ -75,8 +77,6 @@ background {
 }
 
 .wrapper {
-	background-image: url("../images/binding-light.png");
-	background-color: rgb(232, 242, 250);
 	padding-bottom:100px;
 }
 
