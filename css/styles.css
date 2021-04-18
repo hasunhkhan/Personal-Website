@@ -29,19 +29,6 @@ html, body {
 
 }
 
-
-body {
-	background-color: rgb(179, 46, 90);
-	font-family: "cirkalight";
-	background-repeat:round;
-	display: block;
-	position: relative;
-}
-
-.body-work {
-	background-color: rgb(179, 246, 90);
-}
-
 .body-contact {
 
 }
@@ -101,6 +88,17 @@ background {
 
 .wrapper {
 	padding-bottom:100px;
+	background-color: blue;
+	background-color: rgb(179, 46, 90);
+	font-family: "cirkalight";
+	background-repeat:round;
+	display: block;
+	position: relative;
+}
+
+
+.wrapper-work {
+	background-color: rgb(179, 246, 90);
 }
 
 
