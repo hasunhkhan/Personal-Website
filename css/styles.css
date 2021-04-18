@@ -98,7 +98,7 @@ background {
 
 
 .wrapper-work {
-	background-color: rgb(179, 246, 90);
+	background-color: rgb(65, 191, 145);
 }
 
 
@@ -226,12 +226,15 @@ background {
 	margin-right: auto;
 }
 
-.work {
+.cards-work {
+	background-image: url("../images/beige-paper.jpeg");
+	background-size: 200px;
+	padding-left: 0;
+	padding-right: 0;
 	/* display: grid; */
 	/*  align-self: center; */
-	/*width:75%; */
-	margin-left: auto;
-	margin-right:auto;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .contact {
@@ -1173,15 +1176,14 @@ clear: both;
 
 .workColumn1 {
 	flex:33%;
-	margin-left:10em;
-	margin-right:11%;
+	margin-left: 5%;
 }
 
 .workColumn2 {
 	flex: 66%;
 	flex-direction: column;
 	/*margin-left:3.333333em;*/
-	margin-right:10em;
+	margin-right:5%;
 }
 
 .fixed {
