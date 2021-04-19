@@ -137,11 +137,13 @@ background {
 }
 
 .postCardFront {
-	align-items: center;
-	background-image: url("../images/beige-paper.jpeg");
-	background-size: 200px;
 	height:400px;
 	width:732px;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../images/beige-paper.jpeg");
+	background-size: 200px;
+
 	resize:both;
 
 	margin-bottom: 1rem;
@@ -644,10 +646,13 @@ textarea.input100 {
 }
 
 .container_contact{
+
 	margin-left:25%;
 	margin-right:25%;
 	justify-content: center;
 	align-content:center;
+	width:10%;
+	padding-bottom:10%;
 }
 
 .center {
