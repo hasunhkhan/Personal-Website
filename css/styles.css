@@ -132,8 +132,8 @@ background {
 .postCardFront {
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
-	height:225px;
-	width:412px;
+	height:400px;
+	width:732px;
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-bottom: 1rem;
@@ -143,8 +143,8 @@ background {
 .postCardBack {
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
-	height:225px;
-	width:412px;
+	height:400px;
+	width:732px;
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-bottom: 1rem;
