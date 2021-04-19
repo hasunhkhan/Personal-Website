@@ -96,11 +96,13 @@ background {
 	position: relative;
 }
 
-
 .wrapper-work {
 	background-color: rgb(65, 191, 145);
 }
 
+.wrapper-contact {
+	background-color: rgb(65, 191, 145);
+}
 
 .home {
 	background-image: url("../images/beige-paper.jpeg");
@@ -114,25 +116,59 @@ background {
 	/* Background Color */
 }
 
-.tagline {
-    margin-right: auto;
-		margin-left: auto;
-    padding-top: 16px;
-		padding-left: 20px;
-		padding-right: 20px;
-    -webkit-transform: rotate(-7deg);
-    -ms-transform: rotate(-7deg);
-    transform: rotate(-7deg);
-    font-family: 'hattonultrabold';
-    font-size: 12vw;
-    line-height: .75em;
-    font-style: italic;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: -.06em;
-		width:75%;
+.contactRow {
+	display:flex;
 }
 
+.contactColumn1 {
+	flex:50%;
+}
+
+.contactColumn2 {
+	flex:50%;
+
+}
+
+.postCardFront {
+	background-image: url("../images/beige-paper.jpeg");
+	background-size: 200px;
+	height:225px;
+	width:412px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.postCardBack {
+	background-image: url("../images/beige-paper.jpeg");
+	background-size: 200px;
+	height:225px;
+	width:412px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.tagline {
+  margin-right: auto;
+	margin-left: auto;
+  padding-top: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+  -webkit-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+  font-family: 'hattonultrabold';
+  font-size: 12vw;
+  line-height: .75em;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -.06em;
+	width:75%;
+}
 
 .rainbow {
 	background: linear-gradient(225deg, #FE7474 10%, rgb(255, 178, 83) 27%, rgb(161, 255, 126) 43%, rgb(120, 187, 255) 66%, rgb(255, 99, 182)80%, #FE7474 100%);
@@ -142,7 +178,6 @@ background {
 	animation: rainbow_animation 20s linear infinite;
 	background-size: 400% auto;
 }
-
 
 .footerText{
 	padding-top:5rem;
@@ -235,6 +270,13 @@ background {
 	/*  align-self: center; */
 	margin-left: 10%;
 	margin-right: 10%;
+}
+.cards-contact {
+	background-image: url("../images/beige-paper.jpeg");
+	background-size: 200px;
+
+	/* display: grid; */
+	/*  align-self: center; */
 }
 
 .contact {
@@ -1181,7 +1223,6 @@ clear: both;
 
 .workColumn2 {
 	flex: 66%;
-	flex-direction: column;
 	/*margin-left:3.333333em;*/
 	margin-right:5%;
 }
