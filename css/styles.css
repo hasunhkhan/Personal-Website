@@ -138,6 +138,8 @@ background {
 	margin-right: 25%;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
+	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
+
 }
 
 .postCardBack {
@@ -149,6 +151,8 @@ background {
 	margin-right: 25%;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
+	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
+
 }
 
 .tagline {
@@ -1209,6 +1213,7 @@ clear: both;
 }
 
 .graphic-design {
+	padding-top:15rem;
 
 }
 
@@ -1219,12 +1224,14 @@ clear: both;
 .workColumn1 {
 	flex:33%;
 	margin-left: 5%;
+	margin-right: 2.5%;
 }
 
 .workColumn2 {
 	flex: 66%;
 	/*margin-left:3.333333em;*/
 	margin-right:5%;
+	margin-left: 2.5%;
 }
 
 .fixed {
