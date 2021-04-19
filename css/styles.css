@@ -101,7 +101,7 @@ background {
 }
 
 .wrapper-contact {
-	background-color: rgb(80, 110, 217);
+	background-color: rgb(38,99,120);
 }
 
 .home {
@@ -116,6 +116,9 @@ background {
 	/* Background Color */
 }
 
+
+/*											CONTACT FORM 								*/
+
 .contactRow {
 	display:flex;
 }
@@ -126,7 +129,6 @@ background {
 
 .contactColumn2 {
 	flex:50%;
-
 }
 
 .postCardFront {
@@ -139,7 +141,6 @@ background {
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
-
 }
 
 .postCardBack {
@@ -152,7 +153,47 @@ background {
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
+	display:flex;
+}
 
+.postCardBackLeft {
+	flex: 50%;
+	margin-top: 10%;
+	margin-bottom:10%;
+	border-right-color: black;
+	border-right-style: ridge;
+}
+
+.postCardMessage {
+	margin-left: 10%;
+	margin-right:10%;
+	margin-top:1rem;
+}
+
+.postCardBackRight {
+	flex: 50%;
+	margin-top: 10%;
+	margin-bottom:10%;
+}
+
+textarea {
+  height: 100%;
+	width: 75%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+	margin-left:15%;
+	margin-right:10%;
+}
+
+
+.line {
+	width: 11x;
+	height: 200px;
+	border-bottom: 1px solid black;
+	position: absolute;
+	align-items:center;
 }
 
 .tagline {
