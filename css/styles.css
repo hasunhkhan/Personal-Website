@@ -178,13 +178,19 @@ background {
 
 textarea {
   height: 100%;
-	width: 75%;
+	width: 80%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   resize: none;
-	margin-left:15%;
+	margin-left:10%;
 	margin-right:10%;
+}
+
+input {
+	width:100%;
+	line-height:1rem;
+	margin-left: 5%;
 }
 
 
