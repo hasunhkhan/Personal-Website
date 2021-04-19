@@ -63,9 +63,11 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
-	padding-left: 0px;
-	text-align: left;
+	font-size: 1em;
+	font-family: 'hattonmedium';
+	text-align: center;
+	justify-content: center;
+	margin-bottom:0;
 }
 
 header {
@@ -102,6 +104,7 @@ background {
 
 .wrapper-contact {
 	background-color: rgb(38,99,120);
+
 }
 
 .home {
@@ -119,8 +122,10 @@ background {
 
 /*											CONTACT FORM 								*/
 
-.contactRow {
+.contactRow{
 	display:flex;
+	width:100%;
+	height:100%;
 }
 
 .contactColumn1 {
@@ -132,12 +137,13 @@ background {
 }
 
 .postCardFront {
+	align-items: center;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
 	height:400px;
 	width:732px;
-	margin-left: 25%;
-	margin-right: 25%;
+	resize:both;
+
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
@@ -148,12 +154,13 @@ background {
 	background-size: 200px;
 	height:400px;
 	width:732px;
-	margin-left: 25%;
-	margin-right: 25%;
+
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
 	display:flex;
+	flex-flow:column;
+
 }
 
 .postCardBackLeft {
@@ -174,6 +181,24 @@ background {
 	flex: 50%;
 	margin-top: 10%;
 	margin-bottom:10%;
+	margin-right:auto;
+}
+
+.postCardBottom {
+	align-content: center;
+	margin-top: -10%;
+
+}
+
+.stamp {
+	align-items:flex-end;
+	justify-content: flex-end;
+	margin-left: 70%;
+	margin-right: 10%;
+	margin-bottom: 15%;
+	margin-top:-40px;
+	padding:30px 10px;
+	background-color:white;
 }
 
 textarea {
@@ -188,15 +213,15 @@ textarea {
 }
 
 input {
-	line-height:1rem;
+	margin-bottom:1rem;
 	margin-left: 10%;
-	margin-right: 10%;
-	width: 80%;
+	width: 60%;
+	border-bottom:2px;
+	border-color:black;
 }
 
-
 .line {
-	width: 11x;
+	width: 11px;
 	height: 200px;
 	border-bottom: 1px solid black;
 	position: absolute;
@@ -616,6 +641,13 @@ textarea.input100 {
 	height:100px;
 	width:50%;
 	display: flex;
+}
+
+.container_contact{
+	margin-left:25%;
+	margin-right:25%;
+	justify-content: center;
+	align-content:center;
 }
 
 .center {

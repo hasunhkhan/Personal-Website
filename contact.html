@@ -18,6 +18,8 @@
 	<!-- Stylessheets -->
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/util.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -48,22 +50,42 @@
 						</div>
 				 </nav>
 			</header>
-			<div class="container">
+			<!------------------ POSTCARD FRONT -------------------->
+			<div class="container_contact">
 					<div class="postCardFront">
 
 					</div>
-				</div>
-				<div class ="container">
-						<div class="postCardBack">
+			</div>
+			<!------------------ POSTCARD BACK -------------------->
+			<div class ="container_contact">
+					<div class="postCardBack">
+						<div class="contactRow">
 							<div class="postCardBackLeft">
 								<textarea id="subject" placeholder="Write something.."></textarea>
 							</div>
 							<div class="postCardBackRight">
+								<!----------------------- STAMP ------------------>
+								<div class="stamp">
+									Stamp
+								</div>
+								<!------------------------ INPUT FIELDS ----------------------->
 								<input type="text" id="fname" name="firstName" placeholder="First Name..">
 								<input type="text" id="lname" name="lastName" placeholder="Last Name..">
 								<input type="text" id="email" name="email" placeholder="Email Address..">
 							</div>
-						</div>
+
+							</div>
+							<div class="postCardBottom">
+								<h3>
+									Postcard Title
+								</h3>
+								<span class="center">
+									<span class="subtitle">
+										Hasun Khan
+									</span>
+									</span>
+								</div>
+					</div>
 				</div>
 			<!-- CONTACT FORM -->
 
