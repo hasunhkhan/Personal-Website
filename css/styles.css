@@ -143,20 +143,18 @@ background {
 	justify-content: center;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
-
 	resize:both;
-
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
 }
 
+/*
 .postCardBack {
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
 	height:400px;
 	width:732px;
-
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
@@ -164,6 +162,7 @@ background {
 	flex-flow:column;
 
 }
+*/
 
 .postCardBackLeft {
 	flex: 50%;
