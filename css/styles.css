@@ -30,10 +30,6 @@ html, body {
 
 }
 
-.body-contact {
-
-}
-
 .body::after {
 	content: "";
   background: url("../images/billie-holiday.png");
@@ -104,7 +100,9 @@ background {
 
 .wrapper-contact {
 	background-color: rgb(38,99,120);
-
+	justify-content: center;
+	align-items:center;
+	display:block;
 }
 
 .home {
@@ -121,6 +119,12 @@ background {
 
 
 /*											CONTACT FORM 								*/
+.container_contact{
+	margin-left:25%;
+	margin-right:25%;
+	margin-bottom:3rem;
+}
+
 
 .contactRow{
 	display:flex;
@@ -137,12 +141,28 @@ background {
 }
 
 .postCardFront {
+	height:576px;
+	width:804px;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
+	display:flex;
+	flex-flow:column;
+}
+
+.postCardFrontPicture {
+	height:528px;
+	width:756px;
+	background-image: url("../images/pc_front_temp_1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: auto auto;
+	position: relative;
 }
 
 .postCardBack {
+	height:576px;
+	width:804px;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
@@ -154,8 +174,9 @@ background {
 	flex: 50%;
 	margin-top: 10%;
 	margin-bottom:10%;
-	border-right-color: black;
-	border-right-style: ridge;
+	border-right-color: rgb(30, 77, 94);
+	border-right-style:solid;
+	border-width:medium;
 }
 
 .postCardMessage {
@@ -174,7 +195,8 @@ background {
 .postCardBottom {
 	align-content: center;
 	margin-top: -10%;
-
+	line-height:1rem;
+	margin-bottom:1rem;
 }
 
 .stamp {
@@ -182,30 +204,12 @@ background {
 	justify-content: flex-end;
 	margin-left: 70%;
 	margin-right: 10%;
-	margin-bottom: 15%;
-	margin-top:-40px;
-	padding:40px 10px;
+	margin-bottom: 3rem;
+	margin-top:-2rem;
+	padding:30px 10px;
 	background-color:white;
 }
 
-textarea {
-  height: 100%;
-	width: 80%;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  resize: none;
-	margin-left:10%;
-	margin-right:10%;
-}
-
-input {
-	margin-bottom:1rem;
-	margin-left: 10%;
-	width: 60%;
-	border-bottom:2px;
-	border-color:black;
-}
 
 .line {
 	width: 11px;
@@ -430,32 +434,28 @@ input {
 }
 
 input {
-    outline: none;
-    border: none;
-}
-
-input.input100 {
-  height: 40px;
+	font-family: "basier_squareregular";
+  outline: none;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	margin-bottom:1rem;
+	margin-left: 10%;
+	width: 60%;
+	border-bottom-color: rgb(30, 77, 94);
+	border-bottom-style:solid;
 }
 
 textarea {
+	font-family: "basier_squareregular";
   outline: none;
   border: none;
-}
+	background-color: rgba(0,0,0,0);
+	height: 100%;
+	width: 80%;
 
-textarea.input100 {
-  min-height: 110px;
-  padding-top: 9px;
-  padding-bottom: 13px;
-}
-
-
-.input100:focus + .focus-input100::before {
-  width: 100%;
-}
-
-.has-val.input100 + .focus-input100::before {
-  width: 100%;
+	resize: none;
+	margin-left:10%;
+	margin-right:10%;
 }
 
 .validate-input {
@@ -630,15 +630,6 @@ textarea.input100 {
 	display: flex;
 }
 
-.container_contact{
-	display:grid;
-	height:400px;
-	width:732px;
-	margin-left:25%;
-	margin-right:25%;
-	margin-bottom:3rem;
-}
-
 .center {
   display: flex;
   justify-content: center;
@@ -663,23 +654,23 @@ textarea.input100 {
 }
 
 nav {
-      position: fixed;
-      width: 100%;
-      line-height: 60px;
-			z-index: 9999;
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+	z-index: 9999;
 }
 
 nav ul {
-      line-height: 60px;
-      list-style: none;
-			color: #f35626;
-      overflow: hidden;
-      color: white;
-      padding: 0;
-      text-align: right;
-      margin: 0;
-      padding-right: 40px;
-      transition: 1s;
+  line-height: 60px;
+  list-style: none;
+	color: #f35626;
+  overflow: hidden;
+  color: white;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
 }
 
 nav.black ul {
@@ -1230,42 +1221,42 @@ clear: both;
 	  height: 100%;
 	}
 
-	.slider > a {
-	  display: inline-flex;
-	  width: 1.5rem;
-	  height: 1.5rem;
-	  background: white;
-	  text-decoration: none;
-	  align-items: center;
-	  justify-content: center;
-	  border-radius: 50%;
-	  margin: 0 0 0.5rem 0;
-	  position: relative;
+.slider > a {
+	display: inline-flex;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: white;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin: 0 0 0.5rem 0;
+	position: relative;
 	}
-	.slider > a:active {
-	  top: 1px;
-	}
-	.slider > a:focus {
-	  background: #000;
-	}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
 
-	/* Don't need button navigation */
-	@supports (scroll-snap-type) {
-	  .slider > a {
-	    display: none;
-	  }
-	}
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
 
 .rowTest{
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
-		-webkit-column-gap: 14px;
-		-moz-column-gap: 14px;
-		column-gap: 14px;
-		-webkit-column-rule: 1px solid transparent;
-		-moz-column-rule: 1px solid transparent;
-		column-rule: 1px solid transparent;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 14px;
+	-moz-column-gap: 14px;
+	column-gap: 14px;
+	-webkit-column-rule: 1px solid transparent;
+	-moz-column-rule: 1px solid transparent;
+	column-rule: 1px solid transparent;
 	}
 
 .box {
@@ -1311,6 +1302,7 @@ clear: both;
   position: sticky;
 	top: 100;
 }
+
 .scrollit {
 	align-self:center;
 	width: 100%
