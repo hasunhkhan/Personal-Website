@@ -148,7 +148,7 @@ background {
 }
 
 .postCardFront {
-	height:100%;
+	height:100%
 	width:100%;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
@@ -1166,12 +1166,15 @@ clear: both;
 	.postCardSlider {
 		align-items:center;
 	  width: 100%;
+		height: 100%;
 	  text-align: center;
 	  overflow: hidden;
 	}
 
 
 	.postCardSlides {
+		height:100%;
+		width:100%;
 	  display: flex;
 	  overflow-x: auto;
 	  scroll-snap-type: x mandatory;
@@ -1180,22 +1183,16 @@ clear: both;
 	  scroll-snap-points-x: repeat(300px);
 	  scroll-snap-type: mandatory;
 	}
-	.postCardSlides::-webkit-scrollbar {
-	  width: 10px;
-	  height: 10px;
-	}
-	.postCardSlides::-webkit-scrollbar-thumb {
-	  background: black;
-	  border-radius: 10px;
-	}
+
 	.postCardSlides::-webkit-scrollbar-track {
 	  background: transparent;
 	}
+
 	.postCardSlides > div {
 	  scroll-snap-align: start;
 	  flex-shrink: 0;
 	  width: 100%;
-	  height: 10%;
+	  height: 100%;
 	  margin-right: 50px;
 	  border-radius: 2px;
 	  background: #eee;
@@ -1208,6 +1205,7 @@ clear: both;
 	  align-items: center;
 	  font-size: 100px;
 	}
+
 	.postCardSlides > div:target {
 	/*   transform: scale(0.8); */
 	}
@@ -1227,7 +1225,7 @@ clear: both;
 	  height: 10px;
 	}
 	.slides::-webkit-scrollbar-thumb {
-	  background: black;
+	  background: rgb(65, 191, 145);
 	  border-radius: 10px;
 	}
 	.slides::-webkit-scrollbar-track {
