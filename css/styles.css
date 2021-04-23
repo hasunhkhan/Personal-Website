@@ -23,6 +23,8 @@ argesta_hairlineRgIt
 :root {
 	--PostcardHeight: 576px;
 	--PostcardWidth: 804px;
+	--PageHeight: 100vh;
+	--PageWidth: 100vw;
 }
 
 html, body {
@@ -105,9 +107,7 @@ background {
 
 .wrapper-contact {
 	background-color: rgb(38,99,120);
-	justify-content: center;
-	align-items:center;
-	display:block;
+
 }
 
 .home {
@@ -125,13 +125,16 @@ background {
 
 /*											CONTACT FORM 								*/
 .container_contact{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	padding:0px;
+	margin:0px;
 	height:calc(var(--PostcardHeight)/1.5);
 	width:calc(var(--PostcardWidth)/1.5);
-	margin-left:25%;
-	margin-right:25%;
-	margin-bottom:10%;
-}
+	margin-bottom:4rem;
 
+}
 
 .contactRow{
 	display:flex;
@@ -155,6 +158,8 @@ background {
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
 	display:flex;
 	flex-flow:column;
+	margin-left:calc(var(--PageWidth)/5);
+	margin-right:calc(var(--PageWidth)/5);
 }
 
 .postCardFrontPicture {
@@ -175,6 +180,7 @@ background {
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
 	display:flex;
 	flex-flow:column;
+
 }
 
 .postCardBackLeft {
@@ -200,8 +206,6 @@ background {
 }
 .postCardBackRightInput {
 	margin-bottom:10rem;
-
-
 }
 
 .postCardBottom {
@@ -1168,7 +1172,9 @@ clear: both;
 	  width: 100%;
 		height: 100%;
 	  text-align: center;
-	  overflow: hidden;
+	  overflow:visible;
+		box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
+
 	}
 
 
