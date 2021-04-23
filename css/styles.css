@@ -20,6 +20,11 @@ argesta_hairlineregular
 argesta_hairlineRgIt
 */
 
+:root {
+	--PostcardHeight: 576px;
+	--PostcardWidth: 804px;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -120,9 +125,11 @@ background {
 
 /*											CONTACT FORM 								*/
 .container_contact{
+	height:calc(var(--PostcardHeight)/1.5);
+	width:calc(var(--PostcardWidth)/1.5);
 	margin-left:25%;
 	margin-right:25%;
-	margin-bottom:3rem;
+	margin-bottom:10%;
 }
 
 
@@ -141,8 +148,8 @@ background {
 }
 
 .postCardFront {
-	height:576px;
-	width:804px;
+	height:100%;
+	width:100%;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
@@ -151,8 +158,8 @@ background {
 }
 
 .postCardFrontPicture {
-	height:528px;
-	width:756px;
+	height:90%;
+	width:90%;
 	background-image: url("../images/pc_front_temp_1.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -161,8 +168,8 @@ background {
 }
 
 .postCardBack {
-	height:576px;
-	width:804px;
+	height:100%;
+	width:100%;
 	background-image: url("../images/beige-paper.jpeg");
 	background-size: 200px;
 	box-shadow: 0px 26px 6px 0px rgba(0,0,0,0.22);
@@ -190,6 +197,11 @@ background {
 	margin-top: 10%;
 	margin-bottom:10%;
 	margin-right:auto;
+}
+.postCardBackRightInput {
+	margin-bottom:10rem;
+
+
 }
 
 .postCardBottom {
@@ -443,6 +455,7 @@ input {
 	width: 60%;
 	border-bottom-color: rgb(30, 77, 94);
 	border-bottom-style:solid;
+	text-align:justify;
 }
 
 textarea {
@@ -1150,12 +1163,55 @@ clear: both;
 	cursor: url("https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678087-heart-64.png") 25 15, auto;
 }
 
-	.slider {
+	.postCardSlider {
 		align-items:center;
 	  width: 100%;
 	  text-align: center;
 	  overflow: hidden;
 	}
+
+
+	.postCardSlides {
+	  display: flex;
+	  overflow-x: auto;
+	  scroll-snap-type: x mandatory;
+	  scroll-behavior: smooth;
+	  -webkit-overflow-scrolling: touch;
+	  scroll-snap-points-x: repeat(300px);
+	  scroll-snap-type: mandatory;
+	}
+	.postCardSlides::-webkit-scrollbar {
+	  width: 10px;
+	  height: 10px;
+	}
+	.postCardSlides::-webkit-scrollbar-thumb {
+	  background: black;
+	  border-radius: 10px;
+	}
+	.postCardSlides::-webkit-scrollbar-track {
+	  background: transparent;
+	}
+	.postCardSlides > div {
+	  scroll-snap-align: start;
+	  flex-shrink: 0;
+	  width: 100%;
+	  height: 10%;
+	  margin-right: 50px;
+	  border-radius: 2px;
+	  background: #eee;
+	  transform-origin: center center;
+	  transform: scale(1);
+	  transition: transform 0.5s;
+	  position: relative;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-size: 100px;
+	}
+	.postCardSlides > div:target {
+	/*   transform: scale(0.8); */
+	}
+
 
 	.slides {
 	  display: flex;
@@ -1189,7 +1245,6 @@ clear: both;
 	  transform: scale(1);
 	  transition: transform 0.5s;
 	  position: relative;
-
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
@@ -1198,6 +1253,8 @@ clear: both;
 	.slides > div:target {
 	/*   transform: scale(0.8); */
 	}
+
+
 	.author-info {
 	  background: rgba(0, 0, 0, 0.75);
 	  color: white;
