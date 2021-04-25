@@ -936,7 +936,10 @@ to {
 }
 
 .item {
-	color: black;
+	font-family: "basier_squareregular";
+	font-weight: normal;
+	font-size: 0.75rem;
+	color: rgb(112, 124, 145);
 	height: auto;
 	width: auto;
 	grid-gap: 10px;
