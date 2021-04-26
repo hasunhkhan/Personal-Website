@@ -936,9 +936,11 @@ to {
 }
 
 .item {
+	margin-top:1rem;
 	font-family: "basier_squareregular";
 	font-weight: normal;
 	font-size: 0.75rem;
+	line-height: 1rem;
 	color: rgb(112, 124, 145);
 	height: auto;
 	width: auto;
