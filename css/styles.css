@@ -302,11 +302,13 @@ background {
 }
 
 .signature{
-height:100%;
-width:100%;
-	background-size:300px;
+height:50px;
+margin-left:25%;
+margin-right:25%;
 	background: url("../images/sig_new.png");
 	background-repeat: no-repeat;
+	background-position: left;
+	background-size:contain;
 }
 
 .animation {
@@ -353,8 +355,8 @@ width:100%;
 	padding-right: 0;
 	/* display: grid; */
 	/*  align-self: center; */
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 }
 .cards-contact {
 	background-image: url("../images/beige-paper.jpeg");
@@ -937,10 +939,11 @@ to {
 
 .item {
 	margin:0.5rem;
+	margin-top:2rem;
 	font-family: "basier_squareregular";
 	font-weight: normal;
 	font-size: 0.75rem;
-	line-height: 1.25rem;
+	line-height: 1.5rem;
 	color: rgb(112, 124, 145);
 	height: auto;
 	width: auto;
