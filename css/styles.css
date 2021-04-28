@@ -296,7 +296,7 @@ background {
 	font-family: "basier_squareregular";
 	font-weight: normal;
 	font-size: 0.75rem;
-	line-height: 1em;
+	line-height: 1.25rem;
 	margin-top:0px;
 	color: rgb(112, 124, 145);
 }
@@ -307,7 +307,7 @@ margin-left:25%;
 margin-right:25%;
 	background: url("../images/sig_new.png");
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
 	background-size:contain;
 }
 
@@ -820,12 +820,11 @@ to {
 }
 .word-name {
 	font-family: hattonultrabold;
-  font-size: 3rem;
+  font-size: 4rem;
   font-style: normal;
-	line-height: 3rem;
 	color: black;
   text-align: center;
-	line-height: 2.5rem;
+	line-height: 3rem;
 	padding-bottom:20px;
   text-transform: uppercase;
   top: 0;
