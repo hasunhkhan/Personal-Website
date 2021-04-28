@@ -264,7 +264,6 @@ background {
 }
 
 .footerText{
-	padding-top:5rem;
 	margin-bottom:1rem;
 	font-family:"basier_squareregular";
 	font-size:0.75rem;
@@ -303,9 +302,11 @@ background {
 }
 
 .signature{
-	margin-top:0px;
-	font-family: 'hattonultralight';
-	font-size: 18px;
+height:100%;
+width:100%;
+	background-size:300px;
+	background: url("../images/sig_new.png");
+	background-repeat: no-repeat;
 }
 
 .animation {
@@ -630,7 +631,7 @@ textarea {
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 .container_work{
 	display:grid;
