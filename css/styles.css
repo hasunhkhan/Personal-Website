@@ -267,7 +267,7 @@ background {
 .footerText{
 	margin-bottom:1rem;
 	font-family:"basier_squareregular";
-	font-size:0.75rem;
+	font-size:0.5rem;
 	align-items: center;
 	justify-content: center;
 	color: rgb(112, 124, 145);
@@ -351,7 +351,7 @@ margin-right:25%;
 
 .cards-work {
 	background-image: url("../images/beige-paper.jpeg");
-	background-size: 200px;
+	background-size: 300px;
 	padding-left: 0;
 	padding-right: 0;
 	/* display: grid; */
