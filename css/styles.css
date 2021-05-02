@@ -160,6 +160,7 @@ background {
 	flex-flow:column;
 	margin-left:calc(var(--PageWidth)/5);
 	margin-right:calc(var(--PageWidth)/5);
+	cursor:grab;
 }
 
 .postCardFrontPicture {
@@ -1240,6 +1241,7 @@ clear: both;
 	  -webkit-overflow-scrolling: touch;
 	  scroll-snap-points-x: repeat(200px);
 	  scroll-snap-type: mandatory;
+		cursor:grab;
 	}
 	.slides::-webkit-scrollbar {
 	  width: 10px;
