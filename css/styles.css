@@ -53,16 +53,16 @@ html, body {
 
 }
 h1 {
-	font-size: 3rem;
+	font-size: 1.875rem;
 	line-height: 3.5rem;
 	font-family: hattonultrabold;
 }
 
 h2 {
-	font-size: 1.5em;
-	font-family: 'argesta_hairlineregular';
-	margin-bottom:1rem;
-	margin-top:1rem;
+	font-size: 1.40625rem;
+	line-height: 2.00rem;
+	font-family: "basier_squareregular";
+	margin-bottom: 1.25rem;
 	color: rgb(112, 124, 145);
 }
 
@@ -287,8 +287,8 @@ background {
 .letterBody{
 	font-family: "basier_squareregular";
 	font-weight: normal;
-	font-size: 0.75rem;
-	line-height: 1.25rem;
+	font-size: 0.9375rem;
+	line-height: 1.40625rem;
 	margin-top:0px;
 	color: rgb(112, 124, 145);
 }
@@ -296,8 +296,8 @@ background {
 .salutations{
 	font-family: "basier_squareregular";
 	font-weight: normal;
-	font-size: 0.75rem;
-	line-height: 1.25rem;
+	font-size: 0.9375rem;
+	line-height: 1.40625rem;
 	margin-top:0px;
 	color: rgb(112, 124, 145);
 }
@@ -821,7 +821,7 @@ to {
 }
 .word-name {
 	font-family: hattonultrabold;
-  font-size: 4rem;
+  font-size: 1.875rem;
   font-style: normal;
 	color: black;
   text-align: center;
