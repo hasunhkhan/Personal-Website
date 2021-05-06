@@ -60,8 +60,9 @@ h1 {
 
 h2 {
 	font-size: 1.40625rem;
-	line-height: 2.00rem;
+	line-height: 2.03rem;
 	font-family: "basier_squareregular";
+	margin-top: 0px;
 	margin-bottom: 1.25rem;
 	color: rgb(112, 124, 145);
 }
@@ -267,17 +268,18 @@ background {
 .footerText{
 	margin-bottom:1rem;
 	font-family:"basier_squareregular";
-	font-size:0.5rem;
+	font-size: 0.9375rem;
+	line-height: 1.40625rem;
 	align-items: center;
 	justify-content: center;
 	color: rgb(112, 124, 145);
 }
 
 .description{
-	font-family: "argesta_headlineRgIt";
-	font-size: 1rem;
+	font-family: "basier_squareregular";
 	font-style: normal;
-	line-height: 3rem;
+	font-size: 0.9375rem;
+	line-height: 1.40625rem;
 	text-align: center;
 	display:block;
 	margin-bottom:0;
@@ -342,8 +344,8 @@ margin-right:25%;
 
 .cards {
 	align-items: center;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-left: 20%;
+	padding-right: 20%;
 	margin-left: auto;
 	margin-top:auto;
 	margin-right: auto;
@@ -820,7 +822,7 @@ to {
 }
 }
 .word-name {
-	font-family: hattonultrabold;
+	font-family: "hattonultrabold";
   font-size: 1.875rem;
   font-style: normal;
 	color: black;
@@ -941,9 +943,6 @@ to {
 	margin:0.5rem;
 	margin-top:2rem;
 	font-family: "basier_squareregular";
-	font-weight: normal;
-	font-size: 0.75rem;
-	line-height: 1.5rem;
 	color: rgb(112, 124, 145);
 	height: auto;
 	width: auto;
