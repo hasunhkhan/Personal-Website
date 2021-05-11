@@ -280,6 +280,7 @@ background {
 	align-items: center;
 	justify-content: center;
 	color: rgb(112, 124, 145);
+	text-align:center;
 }
 
 .description{
@@ -926,7 +927,8 @@ to {
 .grid-container {
 	display: grid;
 	grid-template-columns: 50% 50%;
-
+	margin-left: 1.5%;
+	margin-right:1.5%;
 }
 
 @media (max-width: 600px) {
