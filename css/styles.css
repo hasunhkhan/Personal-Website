@@ -926,6 +926,7 @@ to {
 .grid-container {
 	display: grid;
 	grid-template-columns: 50% 50%;
+
 }
 
 @media (max-width: 600px) {
@@ -939,6 +940,7 @@ to {
 .item {
 	margin:0.5rem;
 	margin-top:2rem;
+	margin-bottom:2rem;
 	font-family: "basier_squareregular";
 	color: rgb(112, 124, 145);
 	height: auto;
