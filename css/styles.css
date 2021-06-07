@@ -103,6 +103,7 @@ background {
 .wrapper {
 	padding-bottom:100px;
 	background-color: rgb(179, 46, 90);
+	height:100vh;
 	font-family: "cirkalight";
 	background-repeat:round;
 	display: block;
@@ -700,7 +701,6 @@ nav ul {
   padding: 0;
   text-align: right;
   margin: 0;
-  padding-right: 40px;
   transition: 1s;
 }
 
@@ -737,6 +737,7 @@ nav ul li a.active-page {
 
 .menu {
 	height: 90px;
+	width: 100vw;
 }
 
 .menu-icon {
